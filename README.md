@@ -22,7 +22,7 @@ To run this project, you'll need to install the required dependencies. You can d
 
 bash
 Copy code
-git clone https://github.com/yourusername/dog_breed_pred_with_torch.git
+git clone [https://github.com/yourusername/dog_breed_pred_with_torch.git](https://github.com/Sardorxonkeldiyev/Dog_breed_pred_with_Torch)
 cd dog_breed_pred_with_torch
 pip install -r requirements.txt
 Dataset
