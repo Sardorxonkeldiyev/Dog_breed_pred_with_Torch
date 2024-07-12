@@ -133,7 +133,7 @@ def show_image(image_path, label):
     plt.axis('off')
     plt.show()
 
-# Tasvirni ekranga chiqarish
+# Display the image
 show_image(test_image_path, predicted_label)
 Model Architecture
 The model is based on a Convolutional Neural Network (CNN) architecture. We use a pre-trained model (ResNet-18) and fine-tune it on the dog breed dataset.
