@@ -67,9 +67,10 @@ train_dataset = datasets.ImageFolder(root=DATASET_LOCATION, transform=train_tran
 
 # Create DataLoader
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+```
+
 2. Train the model:
-python
-Copy code
+```python
 # Create a model (eg ResNet-18)
 model = models.resnet18(pretrained=True)
 num_classes = len(train_dataset.classes)
@@ -100,9 +101,9 @@ for epoch in range(num_epochs):
     print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {epoch_loss:.4f}")
 
 print("Training finished!")
+```
 3. Evaluate the model:
-python
-Copy code
+```python
 model.eval()
 
 # Image loading and detection for testing
