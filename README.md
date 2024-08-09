@@ -24,7 +24,7 @@ To run this project, you'll need to install the required dependencies. You can d
 git clone [https://github.com/yourusername/dog_breed_pred_with_torch.git](https://github.com/Sardorxonkeldiyev/Dog_breed_pred_with_Torch)
 cd dog_breed_pred_with_torch
 pip install -r requirements.txt
-```python
+```
 Dataset
 The dataset used for training the model is the Dog Breed Image Dataset. It contains images of various dog breeds.
 
@@ -34,7 +34,7 @@ Usage
 To use the model for predicting dog breeds, follow these steps:
 
 1. Preprocess the dataset:
-```
+```python
 import os
 import numpy as np
 import pandas as pd
