@@ -20,11 +20,11 @@ This project aims to build a deep learning model for dog breed classification us
 Installation
 To run this project, you'll need to install the required dependencies. You can do this by running:
 
-bash
-Copy code
+```
 git clone [https://github.com/yourusername/dog_breed_pred_with_torch.git](https://github.com/Sardorxonkeldiyev/Dog_breed_pred_with_Torch)
 cd dog_breed_pred_with_torch
 pip install -r requirements.txt
+```
 Dataset
 The dataset used for training the model is the Dog Breed Image Dataset. It contains images of various dog breeds.
 
@@ -34,8 +34,7 @@ Usage
 To use the model for predicting dog breeds, follow these steps:
 
 1. Preprocess the dataset:
-python
-Copy code
+```
 import os
 import numpy as np
 import pandas as pd
@@ -132,6 +131,7 @@ def show_image(image_path, label):
     plt.title(f"Predicted Label: {label}")
     plt.axis('off')
     plt.show()
+```
 
 # Display the image
 show_image(test_image_path, predicted_label)
